@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Form</title>
+        <meta charset="utf-8">
+        <style>
+
+            input{
+            padding: 5px;
+            margin-bottom: 15px;         
+              color:#000000 ;}
+          h1 {
+            
+  position: absolute;
+  left: 580px;
+  down: 1px;
+             padding: 25px;
+}
+          
+          table{padding: 100px;}
+</style>
+  <h4 align="center">This Registration Form I made have the usual format just like the other <br>websites that ask for your personal information and the purpose of this <br>
+    was to create account for those new applicants that wants to find new <br>
+   online businesses trends that you can have despite in the days of pandemic. 
+      <h1><strong>Registration Form</strong></h1>
+    </head>
+<body>
+ 
+  
+      <table align ="center">
+        <tr>
+          <td colspan="2">Email:</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="email" 
+                     id="txtEmail" 
+                     name="txtEmail"
+                     placeholder="Email here"
+                     />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">Full Name:</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="text" 
+                     id="txtName" 
+                     name="txtName"
+                     placeholder="Full Name here"
+                     />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">Birthday:</td>
+        </tr>
+         <tr>
+          <td></td>
+          <td><input type="month" id="txtPassword" name="txtBirthday" 
+                      placeholder="mm/dd/yyyy"/></td>
+        </tr>
+        <tr>
+          <td colspan="2">Password:</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="Password" id="txtPassword" name="txtPassword" 
+                      placeholder="Password here"/></td>
+        </tr>
+       
+        
+        <tr>
+          <td></td>
+          <td>
+            <input type="radio" 
+                   id="loginType" 
+                   name="loginType"
+                   value = "Guest"
+                   selected="selected"/>
+            <label for="loginType">Male</label>
+            
+            <input type="radio"
+                   id="loginType"
+                   name="loginType"
+                   value="Admin"/>
+            <label for="loginType">Female</label>            
+          </td>
+        </tr>
+        
+        <tr>
+          <td colspan="2">
+            Civil Status
+            <select name="drpLoginType" id="drpLoginType">
+              <option value="Married">Married</option>
+              <option value="Student">Student</option>
+              <option value="Widowed">Widowed</option>
+              <option value="Divored">Divored</option>
+            </select>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" 
+                   id="cbxPolicy1"
+                   name="cbxPolicy1"
+                   value="I accept lorem ipsum"/>
+            <label for="cbxPolicy1">I accept terms and condition</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="right">
+            <button>Reset</button>
+          </td>
+          <td colspan="2" align="right">
+            <button>Submit</button>
+          </td>
+        </tr>
+ 
+      </table>
+  
+</body>
+</html>
