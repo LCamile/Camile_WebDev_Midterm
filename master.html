@@ -1,1 +1,121 @@
-asd
+<html>
+  <head>
+    <title></title>
+    <style>.title {
+    font-size: 32px;
+    border-bottom: 2px solid grey;
+    padding: 15px;
+    color: black;
+    
+}
+.master-item {
+    font-size: 24px;
+    border-bottom: 2px solid grey;
+    padding: 15px;
+    background: white;
+    color:black; 
+}
+
+.text-center {
+    text-align: center;
+}
+.master-item:hover, .active-item {
+    background: grey;
+    color: black;
+    cursor: pointer
+}
+
+.master {
+    padding: 25px;
+    border:none;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.hidden-md {
+    display: inline
+}
+
+.hidden-md-down {
+    display:none
+}
+
+/* For phones: */
+[class*="col-"] {
+    width: 100%;
+    float: left;
+}
+
+.detail{
+    padding: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 11;
+    color: black;
+    height: 100vh;
+    background: white
+}
+
+.md-container  {
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+   
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .hidden-md {
+        display: none;
+    }
+
+    .detail {
+        position: static;
+    }
+
+    .master{
+        border-right: 3px solid grey;
+    }
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:black; 
+     text-decoration:none; 
+     cursor:pointer;
+}</style>
+  </head>
+ 
+<body>
+    <h1 class="title text-center">Master/Detail</h1>
+    <div class="md-container">
+        <div class="col-3 master">
+            <div class="master-item active-item" onclick="select(this)"><a href="https://lcamile.github.io/Camile_WebDev_Midterm/Poem.html"target="item">Poem</div>
+            <div class="master-item" onclick="select(this)"><a href="https://lcamile.github.io/Camile_WebDev_Midterm/markup.html"target="item">Markup</div>
+            <div class="master-item" onclick="select(this)"><a href="https://lcamile.github.io/Camile_WebDev_Midterm/Wishlist.html"target="item">Wishlist</div>
+            <div class="master-item" onclick="select(this)"><a href="https://lcamile.github.io/Camile_WebDev_Midterm/calendar.html"target="item">Calendar</div>
+          <div class="master-item" onclick="select(this)"><a href="https://lcamile.github.io/Camile_WebDev_Midterm/registration.html"target="item">Registration</div>
+          <div class="master-item" onclick="select(this)"><a href="https://lcamile.github.io/Camile_WebDev_Midterm/vmg.html"target="item">VMG</div>
+        </div>
+        <div  class="col-9 detail">
+            
+            <h1 class="detail-title text-center"></h1>
+              <iframe src="https://lcamile.github.io/Camile_WebDev_Midterm/Poem.html" name="item" frameborder=""height="100%" width="100%"></iframe>
+        </div>
+      </div>
+</body>
+</html>
