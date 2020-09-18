@@ -1,1 +1,36 @@
-123
+
+     .container {
+        max-width: 800px; 
+        margin: auto; 
+        font-family: verdana;
+      }
+      .month {
+        text-allign: center;
+        background-color: #87303c;
+        letter-spacing: 5px; 
+        color: white; 
+        padding: 1px; 
+        
+      }
+      table, th, td {
+        width: 100%; 
+        table-layout:fixed; 
+        text-allign: center; 
+        font-size: 16px; 
+        border-collapse: collapse; 
+        
+        
+      }
+      tr, td {
+        padding: 10px;
+      }
+   
+      td {
+        background: #0f1923; 
+      }
+h1{
+  text-align: center;
+   background-color: #87303c;
+        color: white; 
+        padding: 4px; 
+}
