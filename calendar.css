@@ -3,30 +3,39 @@
         max-width: 800px; 
         margin: auto; 
         font-family: verdana;
+       
       }
+
+      body{
+        background-image: url("calendar.png");
+      }
+
+      
       .month {
         text-allign: center;
         background-color: #87303c;
         letter-spacing: 5px; 
-        color: white; 
         padding: 1px; 
-        
       }
+
       table, th, td {
         width: 100%; 
         table-layout:fixed; 
         text-allign: center; 
-        font-size: 16px; 
+        font-size: 17px; 
         border-collapse: collapse; 
-        
+        color:white;
         
       }
+
       tr, td {
         padding: 10px;
       }
    
+      /*background calendar color*/
       td {
-        background: #0f1923; 
+        background: #0f1923;
+        
       }
 h1{
   text-align: center;
@@ -34,3 +43,6 @@ h1{
         color: white; 
         padding: 4px; 
 }
+
+
+ 
