@@ -134,6 +134,9 @@ img {
 .quote p {
     font-style : italic;
 }
-url('https://lcamile.github.io/Camile_WebDev_Midterm/act45/small_arrow.png');
-    line-height : 1.8em;
+ul.bodylist{
+    list-style-position:inside;
+    list-style-image: url('https://lcamile.github.io/Camile_WebDev_Midterm/act45/small_arrow.png');
+    line-height :  1.8em;
+
 }
