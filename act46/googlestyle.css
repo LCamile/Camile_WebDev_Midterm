@@ -103,7 +103,6 @@ input:hover, input:active{
 .footer{
   background-color: #f2f2f2;
   border: solid 1px #dfdfdf;
-  padding-top: 15px;
   margin-bottom: 0;
   padding-bottom: 15px;
   display: flex;
@@ -142,3 +141,4 @@ input:hover, input:active{
   color: white;
   text-decoration: none;
 }
+
