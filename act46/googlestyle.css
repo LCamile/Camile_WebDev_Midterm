@@ -87,19 +87,6 @@ input:hover, input:active{
   margin: 4px;
   padding: 10px;
 }
-.footer1{
-  background-color: #f2f2f2;
-  border: solid 1px #dfdfdf;
-  margin-top: 30px;
-  padding-top: 15px;
-  margin-bottom: 0;
-  padding-bottom: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-
 .footer{
   background-color: #f2f2f2;
   border: solid 1px #dfdfdf;
@@ -113,7 +100,7 @@ input:hover, input:active{
 
 }
 
-.footer a,footer1 a{
+.footer a{
   margin: 20px;
 }
 .footer a:active{
