@@ -1,0 +1,57 @@
+*{
+  text-align: justify;
+  text-align: center;
+}
+body {
+  background-image: url("https://lcamile.github.io/Camile_WebDev_Midterm/act47/ws_Iron_Man_3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.img-box {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  
+  width: 80%;
+  height: 100%;
+  border-radius: 50px;
+  
+  
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  margin-top: 20px;
+  font-size: 5em;
+  
+}
+
+h2 {
+  margin-top: 10px;
+ font-size: 3em;
+}
+p{
+  font-size: 1.4em;
+}
+
+.big-box {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+   height: 1400px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-color: white;
+}
