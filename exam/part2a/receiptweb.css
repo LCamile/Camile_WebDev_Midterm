@@ -1,0 +1,167 @@
+*{
+     font-size: 16px;
+        line-height: 24px;
+        font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color: #555;
+}
+.body{
+     padding-bottom: 20px;
+  
+}
+.invoice-box {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color: #555;
+    }
+    
+    .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+      
+    }
+    
+    .invoice-box table td {
+        padding: 5px;
+        vertical-align: top;
+      
+    }
+    
+    .invoice-box table tr td:nth-child(2) {
+        text-align: right;
+    }
+input[type] {
+  border: none;
+  border-bottom: 1px solid grey;
+  
+}
+input[type=date]{
+  border: none;
+  
+  width: 140px;
+}
+    
+input[type=number1]{
+  border: none;
+  border-bottom: 1px solid grey;
+   width: 137px;
+}
+input[type=numberquan]{
+  border: none;
+   width: 60px;
+  font-size: 16px;
+  text-align: left;
+  
+}
+input[type=numberitem]{
+  border: none;
+   width: 100px;
+  font-size: 16px;
+  text-align: left;
+  
+}
+
+#num1{
+   border: none;
+   width: 56px;
+  font-size: 16px;
+  text-align: left;
+}
+input[type=numberquan2]{
+  border: none;
+   width: 60px;
+  font-size: 16px;
+  position: relative;
+  left: 73px;
+  font-weight: bold;
+}
+#drpLoginType{
+  border: none;
+}
+  
+
+    
+   .title {
+        font-size: 45px;
+        line-height: 45px;
+        color: #333;
+    }
+    
+    .invoice-box table tr.information table td {
+        padding-bottom: 40px;
+      
+    }
+    
+    .invoice-box table tr.heading td {
+        background: #eee;
+        border-bottom: 2px solid #ddd;
+        font-weight: bold;
+      text-align: left;
+    }
+    
+    .invoice-box table tr.details td {
+        padding-bottom: 20px;
+      text-align: left;
+    }
+    
+    .invoice-box table tr.item td{
+        border-bottom: 1px solid #eee;
+      text-align: left;
+    }
+p1{
+   font-size: 25px;
+        line-height: 45px;
+  padding-top: 20px;
+ 
+}
+#qwert{
+  text-align: left;
+  position: relative;
+  left: 240px;
+}
+input[type=text],input[type=email]{
+  border: none; 
+  
+}
+.p2{
+  text-align: left;
+}
+
+#num2{
+   border: none;
+   width: 66px;
+  font-size: 16px;
+  text-align: right;
+    position: relative;
+  right: 8px;
+ 
+}
+
+p2,p3{
+  position: relative;
+  left: 18px;
+  
+}
+
+
+button {
+  padding: 10px 24px;
+  background-color: #e7e7e7; color: black;
+  width: 250px;
+right: 250px;
+  position: relative;
+}
+button:hover {
+  background-color: white;
+}
+#qwert1{
+  text-align: left;
+  left: 140px;
+  position: relative;
+}
