@@ -141,7 +141,7 @@ html {
 
 footer {
     border-top: 5px solid white;
-    padding: 26px;
+    padding: 15px;
     background: white;
   position: absolute; 
     top: 1326px; 
@@ -163,11 +163,11 @@ li {
 .contact >p{
   font-size: 3rem;
   color: black;
-  padding: 26px;
+  padding: 15px;
 }
 .contractbutton>p{
-  padding: 26px;
-  margin-top: 10px;
+  font-size: 15px;
+  padding: 15px;
   color:grey
     
 }
